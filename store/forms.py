@@ -57,7 +57,7 @@ class NewItemForm(forms.ModelForm):
         model = Item 
         fields = ['category','name','description','price','image']
 
-    widgets = {
+        widgets = {
         'category': forms.Select(
             attrs={
                 'class': 'form-select'
